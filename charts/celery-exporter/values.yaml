@@ -80,6 +80,9 @@ serviceMonitor:
   ## namespaceSelector:
   ##   any: true
   scrapeInterval: 30s
+  ## Default: 10s
+  ## To increase scrape timeout:
+  ## scrapeTimeout: 30s
   # honorLabels: true
   targetLabels: []
   relabelings: []
